@@ -33,4 +33,28 @@ flex-center-space-between()
 margin-center()
     margin 0 auto
 
+.header
+    background black
+    padding 20px
+    
+
+    .large-container
+        flex-center-space-between()
+
+    &__logo 
+        margin 30px 0
+
+    &__navigation
+        display flex
+        padding 10px 5px
+        gap 35px
+        font-size 12px
+        letter-spacing 1px  
+    
+
+
+
+
+
+
 
