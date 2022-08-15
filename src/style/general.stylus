@@ -106,6 +106,51 @@ margin-center()
                     line-height 1.6rem
                     color rgba(255, 255, 255, 0.4)
 
+.arrow-list
+    padding 30px 0
+    
+    &__autor-line
+        margin 0 3% 60px
+        font-size: 1rem;
+        letter-spacing 1.4px
+        text-transform: uppercase;
+        color #e4e4e4
+    &__description
+        padding-bottom 65px
+        font-size 1rem
+        letter-spacing 0.44px
+        text-transform uppercase
+        color custom-pink
+
+    &__list-container
+        display grid
+        grid-template-columns repeat(3, 1fr)
+        grid-template-rows repeat(4, 1fr)
+        grid-column-gap 250px
+        grid-row-gap 100px
+        color black
+
+        &__title
+            font-size 4.6rem
+            line-height 5.5rem
+        
+        &__subtitle
+            font-size 1.6rem
+            line-height 2.1rem
+            white-space nowrap
+
+        &__link
+            padding 16px 
+            max-width 42px
+            max-height 42px
+            border 1px solid black
+            border-radius 100%
+
+
+
+        
+
+
 
 
 
