@@ -51,7 +51,60 @@ margin-center()
         font-size 12px
         letter-spacing 1px  
     
+.intro 
+    padding 0 0 80px
+    background black
+    color white
 
+    &__container 
+        margin-center()
+        display flex
+        flex-direction column
+        flex-wrap nowrap
+        align-items center
+        max-width 920px
+        background-image url('../assets/vector/intro/blue-triangle.svg'), url('../assets/vector/intro/pink-triangle.svg')
+        background-position center center, center center
+        background-repeat no-repeat, no-repeat
+        
+        
+
+        &__text-wrap 
+            margin 116px 0
+            width 100%
+            display flex
+            flex-direction colomn
+            flex-wrap wrap
+            
+            &__title
+                font-size 11.4rem
+                line-height 12.5rem
+
+            &__subtitle
+                width 100%
+                text-align right
+                font-size 11.4rem
+                line-height 12.5rem
+
+
+    .medium-container
+        flex-center-space-between()
+
+        .intro__subtitle-left-wrap 
+            &__line 
+                font-size 2rem
+                line-height 2.7rem
+
+        .intro__subtitle-right-wrap 
+            &__line
+                font-size 2rem
+                line-height 2.2rem
+
+                &__small-grey
+                    font-weight 400
+                    font-size 1.1rem
+                    line-height 1.6rem
+                    color rgba(255, 255, 255, 0.4)
 
 
 
