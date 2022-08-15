@@ -1,0 +1,25 @@
+{
+  "name": "fe-ml-kurs-2",
+  "version": "1.0.0",
+  "description": "",
+  "source": "/src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexMakovetskiy/fe-ml-kurs-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexMakovetskiy/fe-ml-kurs-2/issues"
+  },
+  "homepage": "https://github.com/AlexMakovetskiy/fe-ml-kurs-2#readme",
+  "dependencies": {
+    "sass": "^1.54.4",
+    "stylus": "^0.59.0"
+  }
+}

@@ -1,0 +1,36 @@
+@font-face 
+    font-family "Roboto"
+    src url("./fonts/Roboto/Roboto-Regular.ttf")
+    font-style normal
+    font-weight 400
+
+
+@font-face 
+    font-family "Roboto"
+    src url("./fonts/Roboto/Roboto-Bold.ttf")
+    font-style bold
+    font-weight 600
+
+
+@font-face 
+    font-family "Roboto"
+    src url("./fonts/Roboto/Roboto-Italic.ttf")
+    font-style italic
+    font-weight 400
+
+custom-pink = #E8244F
+
+flex-center() 
+    display flex
+    justify-content center
+    align-items center
+
+flex-center-space-between()
+    display flex
+    flex-wrap nowrap
+    justify-content space-between
+    align-items center
+margin-center()
+    margin 0 auto
+
+
