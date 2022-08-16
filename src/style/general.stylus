@@ -12,6 +12,12 @@ margin-center()
     margin 0 auto
 
 custom-pink = #E8244F
+
+body
+    background white
+    font-family: "Roboto", Verdana, Tahoma, sans-serif;
+    font-weight 400
+
 .header
     background black
     padding 20px
@@ -211,5 +217,72 @@ custom-pink = #E8244F
         grid-template-rows repeat(2, 1fr)
         grid-row-gap 50px
         grid-auto-flow: column;
+.methods
+    padding 144px 0 100px
+    background black
+    color white
+
+    .medium-container
+        padding-bottom 134px
+        display flex
+        gap 200px
+
+    &__tab-wrap
+        max-width 100px
+        display flex
+        flex-direction column
+        gap 5px
+
+        &__inset 
+            font-size 1.5rem
+            line-height 2.8rem
+            color white
+            transition 1s
+            cursor pointer
+
+        &__inset:hover    
+            color custom-pink
+
+    &__text-box
+        display flex
+        flex-direction column
+        justify-content flex-start
+
+        &__title
+            max-width 534px
+            padding-bottom 50px
+            font-size 5.8rem
+            line-height 7rem
+
+        &__subtitle
+            max-width 420px
+            padding-bottom 22px
+            font-size 2rem
+            line-height 2.6rem
+
+        &__details
+            padding-bottom 10px
+            max-width 145px
+            display inline-block
+            font-size 1.6rem
+            line-height 2.1rem
+            border-bottom 1px solid white
+            
+    &__tab-display
+        width 100%
+        padding-left 65px
+        flex-center-space-between()
+        gap 54px
+        overflow hidden
+
+        &__textline
+            font-size 11.4rem
+            line-height 14.8rem
+            color #181818
+            transition 1.5s
+
+        &__textline:hover
+            color custom-pink
+
 
 
