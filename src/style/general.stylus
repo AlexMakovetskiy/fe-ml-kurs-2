@@ -126,6 +126,7 @@ custom-pink = #E8244F
 
 
 .history
+    padding-bottom 160px
     .medium-container
         padding 8px 15px
         display grid
@@ -195,7 +196,20 @@ custom-pink = #E8244F
         grid-column 2   
 
 
-
-
+.partners
+    .medium-container
+        padding 8px 15px
+    &__title
+        font-size 1rem
+        line-height 3.4rem
+        letter-spacing 0.44px
+        text-transform uppercase
+        color custom-pink
+    &__wrapper
+        display grid
+        grid-template-columns repeat(10, 1fr)
+        grid-template-rows repeat(2, 1fr)
+        grid-row-gap 50px
+        grid-auto-flow: column;
 
 
