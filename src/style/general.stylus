@@ -283,6 +283,66 @@ body
 
         &__textline:hover
             color custom-pink
+.inspiration
+    padding 120px 0
+    .medium-container
+        display grid
+        grid-template-columns repeat(4, 1fr)
+        grid-template-rows repeat(3, 1fr)
+        grid-column-gap 30px
+        grid-row-gap 30px
+    &__book-container
+        max-width 294px
+        display flex
+        flex-direction column
+
+        &__book-photo
+            padding-bottom 16px
+
+        &__theme
+            padding-bottom 6px 
+            font-size 1rem
+            line-height 1.3rem
+            word-spacing 10px
+            color rgba(0, 0, 0, 0.5)
+            
+        &__name
+            font-size 1.2rem
+            line-height 1.7rem
+    &__description
+        padding 0 30px
+        grid-row 1
+        grid-column 2 / 5
+        flex-center()
+        align-items flex-start
+        flex-direction column
+        gap 36px
+
+
+        &__title
+            font-weight 400
+            font-size 11.4rem
+            line-height 12rem
+        &__subtitle
+            max-width 800px
+            font-size 2rem
+            line-height 2.6rem   
+    &__quote
+        padding 0 10px
+        grid-row 3
+        grid-column 1 / 3 
+        flex-center()
+        justify-content flex-start
+
+        &__textline
+            max-width 520px
+
+            &__citation
+            &__qoute-author
+                font-size 2rem
+                line-height 2.6rem
+        
+        
 
 
 
