@@ -18,8 +18,9 @@
     "url": "https://github.com/AlexMakovetskiy/fe-ml-kurs-2/issues"
   },
   "homepage": "https://github.com/AlexMakovetskiy/fe-ml-kurs-2#readme",
-  "dependencies": {
-    "sass": "^1.54.4",
+  "devDependencies": {
+    "@parcel/transformer-stylus": "^2.7.0",
+    "parcel": "^2.7.0",
     "stylus": "^0.59.0"
   }
 }

@@ -13,6 +13,38 @@ margin-center()
 
 custom-pink = #E8244F
 
+@-webkit-keyframes ticker-animation 
+    0% 
+        -webkit-transform translate(0, 0)
+        transform translate(0, 0)
+    100% 
+        -webkit-transform translate(-100%, 0)
+        transform translate(-100%, 0)
+
+@-moz-keyframes ticker-animation 
+    0% 
+        -moz-transform translate(0, 0)
+        transform translate(0, 0)
+    100% 
+        -moz-transform translate(-100%, 0)
+        transform translate(-100%, 0)
+
+@keyframes ticker-animation 
+    0% 
+        transform translate(0, 0)
+    
+    50% 
+        transform translate(-100%, 0)
+    100%    
+        transform translate(0, 0)
+@keyframes ticker-animation-reverse
+    0% 
+        transform translate(-100%, 0)
+    50% 
+        transform translate(0, 0)
+    100%    
+        transform translate(-100%, 0)       
+
 body
     background white
     font-family: "Roboto", Verdana, Tahoma, sans-serif;
@@ -341,8 +373,67 @@ body
             &__qoute-author
                 font-size 2rem
                 line-height 2.6rem
+
+
+.ticker
+    .zero-container
+        padding-bottom 190px
+        flex-center()
+        flex-direction column
+        gap 75px
+        overflow hidden
+        white-space nowrap
+    &__textline 
+        font-size 11.4rem
+        line-height 11.4rem
+        color #888888
+        -webkit-animation: ticker-animation 35s infinite linear;
+        -moz-animation: ticker-animation 35s infinite linear;
+        animation: ticker-animation 35s infinite linear;
         
-        
+
+        &__black-font
+            color black
+    &__textline.middle 
+        -webkit-animation: ticker-animation 35s infinite linear;
+        -moz-animation: ticker-animation 35s infinite linear;
+        animation: ticker-animation-reverse 35s infinite linear;
 
 
+//lookup()
+.about-company
+    padding-bottom 110px
+    .small-container
+        flex-center-space-between()
+        gap 136px
+    &__creator-wrap-left
+        flex-center()
+        flex-direction column
+        gap 40px
 
+        &__title
+            max-width 524px
+            font-weight 400
+            font-size 4.6rem
+            line-height 5.7rem
+    
+    &__creator-wrap-right
+        flex-center()
+        flex-direction column
+
+        &__photo
+            padding-bottom 50px
+        &__subtitle
+            padding-bottom 30px
+            font-size 2rem
+            line-height 2.5rem
+        &__signature-container
+            flex-center-space-between()
+            gap 40px
+
+            &__creator-mark
+                .signature
+                    padding-bottom 30px
+                .creator-name
+                    font-size 1.6rem
+                    line-height 2.1rem
