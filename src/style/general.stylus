@@ -400,7 +400,7 @@ body
         animation: ticker-animation-reverse 35s infinite linear;
 
 
-//lookup()
+
 .about-company
     padding-bottom 110px
     .small-container
@@ -437,3 +437,70 @@ body
                 .creator-name
                     font-size 1.6rem
                     line-height 2.1rem
+
+.contacts
+    padding 100px 0 0
+    background black
+    color white
+
+    .medium-container
+        padding-bottom 60px
+
+
+    &__title
+        padding-bottom 64px
+        font-size 1rem
+        line-height 3.4rem
+        letter-spacing 0.44px
+        text-transform uppercase
+
+    &__email
+    &__phone-number
+        display inline-block
+        font-weight 400
+        font-size 6.5rem
+        line-height 9.8rem
+    
+    &__email
+        width 100%
+    &__phone-number
+        padding-bottom 144px
+    
+    &__connect-form
+        padding-bottom 220px
+        flex-center-space-between()
+        gap 780px
+
+        &__adress
+            display inline-block
+            max-width 322px
+            font-size 2rem
+            line-height 3.3rem
+        &__social-media
+            flex-center-space-between()
+            gap 42px
+    &__add-info
+        flex-center-space-between()
+        gap 810px
+        font-size 1.2rem
+        line-height 1.7rem
+        color rgba(255, 255, 255, 0.4)
+
+        &__info-container
+            flex-center-space-between()
+            gap 86px
+
+            &__policy
+                font-size 1.2rem
+                line-height 1.7rem
+                color rgba(255, 255, 255, 0.4)
+    .zero-container
+        padding 45px 0
+        background white
+        flex-center()
+        .contacts__totop
+            font-size 4.6rem
+            line-height 6rem
+            color black
+            scroll-behavior: smooth
+
